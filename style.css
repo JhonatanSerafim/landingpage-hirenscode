@@ -63,6 +63,44 @@ header{
     color: white;
 
     height: 430px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner-title{
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+
+}
+
+.banner-title-sub{
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+
+}
+
+.banner-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50%;
+
+}
+
+.banner-2{
+    background-color: ;
+    color: yellow;
 }
 
 /* CATALAGO DE PRODUTOS MAIS VENDIDOS*/
@@ -211,6 +249,8 @@ section.news-letter h3{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
+    margin-left: ;
 
 }
 
@@ -218,6 +258,8 @@ section.news-letter h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin-left: 10%;
 }
 .rodape .local p{
     font-size: 13px;
@@ -253,6 +295,8 @@ section.news-letter h3{
 .rodape .patrocinadores{
     display: flex;
     justify-content: center;
+
+    margin-right: 10%;
     
 }
 
