@@ -18,21 +18,30 @@
 <body>
 
     <header>
-        <img src="" alt="logo-corebiz">
 
-        <form class="pesquisa">
-            <label for="">O que está procurando?</label>
-            <input type="search" id="texto" list="historico">
-            <img src="./assets/lupa.png" alt="lupa" class="btn-search">
+        <div class="top-container">
+            <div class="top">
+                <img src="./assets/logo-corebiz-preto-cinza.png" alt="logo-corebiz" class="img-logo">
+            </div>
+            <div class="top>
+                <form class="pesquisa">
+                    <input type="search" id="texto" list="historico" placeholder="O que está procurando?">
+                    <img src="./assets/lupa.png" alt="lupa" class="btn-search">
 
-            <datalist id="historico">
-                <option value="Bota"></option>
-            </datalist>
+                    <datalist id="historico">
+                        <option value="Bota"></option>
+                    </datalist>
 
-        </form>
+                </form>
+            </div>
+            <div class="top">
 
-        <input type="text" value="Minha Conta">
-        <input type="text" value="carrinho">
+                <a href="#"><input type="text" value="Minha Conta"></a>
+            </div>
+            <div class="top">
+                <a href="#"><input type="text" value="carrinho"></a>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -45,7 +54,7 @@
 
             </div>
             <div class="banner-2">
-                <img src="./assets/banner.png" alt="Banner">
+                <img src="./assets/banner.png" alt="Banner" class="imagem-banner">
 
             </div>
         </section>
@@ -126,16 +135,16 @@
         </section>
 
         <section class="news-letter">
-            
+
             <div class="news">
 
                 <div>
                     <h3 class="titulo-news-letter">Participe de nossas news com promoções e novidades!</h3>
-                    </div>
-                
+                </div>
+
                 <div class="news-form">
                     <form action="#" method="POST">
-                        <input type="text" name="nome" placeholder="Digite seu nome"class="texto-cadastro">
+                        <input type="text" name="nome" placeholder="Digite seu nome" class="texto-cadastro">
                         <input type="text" name="email" placeholder="Digite seu email" class="texto-cadastro">
 
                         <input type="submit" value="Eu quero!" class="btn-news-letter">
@@ -164,12 +173,12 @@
             <div class="patrocinadores">
                 <div class="patrocinador">
                     <p class="texto-patrocinadores">Created by</p>
-                <img src="./assets/logo-corebiz.png" alt="logo-corebiz">
+                    <img src="./assets/logo-corebiz.png" alt="logo-corebiz">
                 </div>
                 <div class="patrocinador">
                     <p class="texto-patrocinadores">Powered by</p>
-                <img src="./assets/logo-vtex.png" alt="logo-VTEX">
-                </div> 
+                    <img src="./assets/logo-vtex.png" alt="logo-VTEX">
+                </div>
             </div>
         </section>
     </footer>

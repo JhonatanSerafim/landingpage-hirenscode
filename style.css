@@ -9,8 +9,7 @@ html, body, h1, h2, h3, h4, section, div, p {
 }
 
 body {
-    width: 100%;
-    
+    width: 100%;    
 }
 
 /* RESET CSS*/
@@ -29,9 +28,28 @@ header{
 
 }
 
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img-logo{
+    width: 170.14px;
+    height: 41px;
+
+}
+
 .pesquisa{
     width: 400px;
     height: 40px;
+    border-bottom: 2px solid gray;
 }
 
 #texto{
@@ -49,12 +67,10 @@ header{
 .btn-search {
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color:white;
     padding: 6px;
     cursor: pointer;
 }
-
-
 
 /* BANNER PRINCIPAL*/
 
@@ -98,9 +114,9 @@ header{
 
 }
 
-.banner-2{
-    background-color: ;
-    color: yellow;
+.imagem-banner{
+    width: 960px;
+    height: 430px;
 }
 
 /* CATALAGO DE PRODUTOS MAIS VENDIDOS*/
