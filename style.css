@@ -1,0 +1,218 @@
+/* RESET CSS*/
+
+html, body, h1, h2, h3, h4, section, div, p {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    width: 100%;
+    
+}
+
+/* RESET CSS*/
+
+
+
+header{
+    
+    background-color: white;
+    color: black;
+
+    display: flex;
+    justify-content: space-around;
+
+    height: 80px;
+    
+
+}
+
+.pesquisa{
+    width: 400px;
+    height: 40px;
+}
+
+#texto{
+    width: 350px;
+    height: 30px;
+    float: left;
+    font-size: 'Arial';
+    font-size: 20px;
+}
+
+#texto:focus{
+    border: 1px solid black;
+}
+
+.btn-search {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+
+/* BANNER PRINCIPAL*/
+
+#banner-container{
+    background-color: black;
+    color: white;
+
+    height: 430px;
+}
+
+/* CATALAGO DE PRODUTOS MAIS VENDIDOS*/
+
+section.carrocel-produtos{
+    background-color: white;
+    color: black;
+
+    height: 430px;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    
+}
+section.carrocel-produtos h3{
+    margin: 20px 100px;
+    font-weight: bold;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.produtos .titulo-produto{
+    color: #7A7A7A;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.produtos .valor{
+    font-weight: bold;
+    font-size: 18px;
+    
+    line-height: 25px;
+}
+
+.produtos .descricao{
+    padding: 0 10px 10px 10px;
+    
+}
+.produtos .descricao:hover{
+    background-color: #E6E8EA;
+    transition: background 1s;
+}
+
+.produtos .parcelamento{
+    font-size: 11px;
+line-height: 15px;
+color: #7A7A7A;
+
+}
+
+.produtos input{
+ 
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.produto{
+    text-align: center;
+
+}
+
+/* FORMS DE CADASTRO NEWSLETTER*/
+
+section.news-letter{
+    background-color: #F2F2F2;
+    color: black;
+
+    height: 146px;
+   
+}
+
+section.news-letter h3{
+    text-align: center;
+
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    
+    
+
+}
+
+.news{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* RODAPÉ DA PÁGINA*/
+
+.rodape{
+    font-family: 'Nunito', sans-serif;
+
+    background-color: black;
+    color: white;
+
+    height: 386px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.rodape .local{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.rodape .local p{
+    font-size: 13px;
+}
+
+.rodape .btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.rodape input{
+    background: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+
+}
+
+.rodape .patrocinadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+

@@ -1,14 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-    Teste
-    
+    <header>
+        <img src="" alt="logo-corebiz">
+        
+        <form class="pesquisa">
+            <label for="">O que está procurando?</label>
+            <input type="search" id="texto" list="historico">
+            <img src="./assets/lupa.png" alt="lupa" class="btn-search">
+
+            <datalist id="historico">
+                <option value="Bota"></option>
+            </datalist>
+
+        </form>
+
+        <input type="text" value="Minha Conta">
+        <input type="text" value="carrinho">
+    </header>
+
+    <main>
+
+        <section id="banner-container">
+            <div class="banner">
+                banner
+                <img src="" alt="Banner">
+                <h3>Olá, o que você está buscando?</h3>
+                <h3>Criar ou migrar seu e-commerce?</h3>
+
+            </div>
+            <div class="banner">
+                banner
+                <img src="" alt="Banner">
+                <h3>Olá, o que você está buscando?</h3>
+                <h3>Criar ou migrar seu e-commerce?</h3>
+
+            </div>
+        </section>
+
+
+        <section class="carrocel-produtos">
+
+            <H3>Mais Vendidos</H3>
+
+            <div class="produtos">
+
+                <div class=" produto1 produto">
+                    <div class="img">
+                        <img src="./assets/sapato.png" alt="SAPATO">
+                    </div>
+                    <div class="descricao">
+                        <p class="titulo-produto">
+                            SAPATO FLOATER PRETO
+                        </p>
+                        <p class="valor">
+                            por R$ 259,90
+                        </p>
+                        <p class="parcelamento">
+                            ou em 9x de R$ 28,87
+                        </p>
+                        <a href="#"><input type="submit" value="COMPRAR"></a>
+                    </div>
+                </div>
+
+                <div class="produto2 produto">
+
+                    <img src="./assets/chinelo.png" alt="Chinelo">
+                    <div class="descricao">
+                        <p class="titulo-produto">
+                            SANDÁLIA LINHO BROWN
+                        </p>
+                        <p class="valor">
+                            por R$ 299,00
+                        </p>
+                        <p class="parcelamento">
+                            ou em 4x de R$ 49,75
+                        </p>
+                        <a href="#"><input type="submit" value="COMPRAR"></a>
+                    </div>
+                </div>
+                <div class="produto3 produto">
+
+                    <img src="./assets/bota.png" alt="Bota">
+                    <div class="descricao">
+                        <p class="titulo-produto">
+                            BOTA MUSTANG PRETO
+                        </p>
+                        <p class="valor">
+                            por R$ 299,90
+                        </p>
+                        <p class="parcelamento">
+                            ou em 10x de R$ 29,90
+                        </p>
+                        <a href="#"><input type="submit" value="COMPRAR"></a>
+                    </div>
+                </div>
+                <div class="produto4 produto">
+                    <img src="./assets/cinto.png" alt="Cinto">
+                    <div class="descricao">
+                        <p class="titulo-produto">
+                            SAPATO FLOATER PRETO
+                        </p>
+                        <p class="valor">
+                            por R$ 79,90
+                        </p>
+                        <p class="parcelamento">
+                            ou em 10x de R$ 7,90
+                        </p>
+                        <a href="#"><input type="submit" value="COMPRAR"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-letter">
+
+            <h3 class="titulo-news-letter">Participe de nossas news com promoções e novidades!</h3>
+            <div class="news">
+                <form action="#" method="POST">
+                    <label for="">Digite seu nome</label>
+                    <input type="text" name="nome">
+                    <label for="">Digite seu email</label>
+                    <input type="text" name="email">
+
+                    <input type="submit" value="Eu quero!">
+                </form>
+            </div>
+            </div>
+    </main>
+
+    <footer>
+        <section class="rodape">
+
+            <div class="local">
+                <h4>Localização</h4>
+                <p>Avenida Andrômeda, 2000. Bloco 6 e 8
+                    <br>Alphavile SP
+                    <br>brasil@corebiz.ag
+                    <br>+55 11 3090 1039
+                </p>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value=" ENTRE EM CONTATO">
+                <input type="submit" value="FALE COM O NOSSO CONSULTOR ONLINE">
+            </div>
+
+            <div class="patrocinadores">
+                <img src="" alt="logo-corebiz">
+                <img src="" alt="logo-VTEX">
+            </div>
+
+        </section>
+    </footer>
+
 </body>
+
 </html>
