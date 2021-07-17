@@ -210,7 +210,7 @@ section.news-letter h3{
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -218,33 +218,64 @@ section.news-letter h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 .rodape .local p{
     font-size: 13px;
+    
 }
 
-.rodape .btn{
+.rodape .btn-contatos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
 
-.rodape input{
+.rodape .btn-contatos button{
     background: white;
     border-radius: 5px;
     border: 1px solid white;
     display: block;
     margin: 10px;
 
+    width: 195px;
+    height: 38px;
+    left: 868px;
+    bottom: 128px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    margin: 10px;
+
 }
 
 .rodape .patrocinadores{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     
+}
+
+.patrocinador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.texto-patrocinadores {
+    font-family: Nunito;
+
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.patrocinadores img{
+    width: 104,56px;
+    height: 37.44px;
+    margin: 5px;
 }
 
 
