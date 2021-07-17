@@ -142,7 +142,15 @@ section.news-letter{
     color: black;
 
     height: 146px;
-   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.news{
+    
+    
 }
 
 section.news-letter h3{
@@ -152,17 +160,43 @@ section.news-letter h3{
     font-weight: bold;
     font-size: 22px;
     line-height: 22px;
-    
-    
 
+    padding: 0 0 15px 0;
 }
 
-.news{
-
+.news-form{
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
+
+.news-form .texto-cadastro{
+    width: 280px;
+    height: 48px;
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.texto-cadastro input:placeholder{
+ color: red;
+}
+
+
+.news-form .btn-news-letter{
+    width: 140px;
+    height: 48px;
+
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    font-weight: bold;  
+    font-size: 14px;
+    line-height: 14px;
+}
+
 
 /* RODAPÉ DA PÁGINA*/
 
@@ -201,7 +235,8 @@ section.news-letter h3{
     background: white;
     border-radius: 5px;
     border: 1px solid white;
-    
+    display: block;
+    margin: 10px;
 
 }
 
