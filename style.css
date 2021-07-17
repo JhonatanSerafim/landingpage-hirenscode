@@ -16,7 +16,6 @@ body {
 /* RESET CSS*/
 
 
-
 header{
     
     background-color: white;
@@ -108,7 +107,7 @@ section.carrocel-produtos h3{
     padding: 0 10px 10px 10px;
     
 }
-.produtos .descricao:hover{
+.produto:hover{
     background-color: #E6E8EA;
     transition: background 1s;
 }
