@@ -9,35 +9,37 @@ html, body, h1, h2, h3, h4, section, div, p {
 }
 
 body {
-    width: 100%;    
+    width: 1920px;   
 }
 
 /* RESET CSS*/
 
 
 header{
+
+
     
     background-color: white;
     color: black;
 
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
 
+    width: 1920px;
     height: 80px;
     
 
 }
 
-.top-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.top{
-    display: flex;
-    flex-direction: row;
-
+.link-user{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #7A7A7A;
+    align-items: center;
 }
 
 .img-logo{
@@ -72,12 +74,25 @@ header{
     cursor: pointer;
 }
 
+.btn-top{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+header .btn-header{
+    border: 1px solid white;
+}
+
+
 /* BANNER PRINCIPAL*/
 
 #banner-container{
+
+
     background-color: black;
     color: white;
 
+    width: 1920px;
     height: 430px;
 
     display: flex;
@@ -110,7 +125,7 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 50%;
+    margin-right: 30%;
 
 }
 
@@ -125,6 +140,7 @@ section.carrocel-produtos{
     background-color: white;
     color: black;
 
+    width: 1920px;
     height: 430px;
 
     font-family: 'Nunito', sans-serif;
@@ -195,6 +211,7 @@ section.news-letter{
     background-color: #F2F2F2;
     color: black;
 
+    width: 1920px;
     height: 146px;
 
     display: flex;
@@ -255,12 +272,13 @@ section.news-letter h3{
 /* RODAPÉ DA PÁGINA*/
 
 .rodape{
+    width: 1920px;
+    height: 213px;
+
     font-family: 'Nunito', sans-serif;
 
     background-color: black;
     color: white;
-
-    height: 386px;
 
     display: flex;
     flex-direction: row;
