@@ -18,28 +18,45 @@
 <body>
 
     <header>
-            
-                <img src="./assets/logo-corebiz-preto-cinza.png" alt="logo-corebiz" class="img-logo">
-            
-           
-                <form class="pesquisa">
-                    <input type="search" id="texto" list="historico" placeholder="O que está procurando?" class="btn-header">
-                    <img src="./assets/lupa.png" alt="lupa" class="btn-search">
 
-                    <datalist id="historico">
-                        <option value="Bota"></option>
-                    </datalist>
+        <img src="./assets/logo-corebiz-preto-cinza.png" alt="logo-corebiz" class="img-logo-corebiz">
 
-                </form>
-           
-            
 
-                <a href="#" class="btn-top"><img src="./assets/user.png" alt="icon-user" class="link-user"><input type="text" value="Minha Conta" class="btn-header"></a>
-            
-            
-                <a href="#" class="btn-top"><img src="./assets/shopping-cart.png" alt=""><input type="text" value="carrinho" class="btn-header"></a>
+        <form class="pesquisa">
+            <input type="search" id="texto" list="historico" placeholder="O que está procurando?" class="btn-header">
+            <img src="./assets/lupa.png" alt="lupa" class="btn-search">
+
+            <datalist id="historico">
+                <option value="Bota"></option>
+            </datalist>
+
+        </form>
+
+
+        <div class="btn-top">
+
+            <a href="#"><div class="btn-1">
+            <img src="./assets/user.png" alt="icon-user" class="link-user">
+                <input type="submit" value="Minha Conta" class="btn-header">
+            </div></a>
+
+            <div class="btn-2">
+            <a href="#"><img src="./assets/shopping-cart.png" alt="icon-cart" class="link-user">
+                <input type="submit" value="carrinho" class="btn-header"></a>
+            </div>
+
+            <!-- <a class="btn-1" href="#">
+                <img src="./assets/user.png" alt="icon-user" class="link-user">
+                <p class="btn-header">Minha Conta</p>
+            </a>
+
+            <a class="btn-1" href="#">
+                <img src="./assets/shopping-cart.png" alt="icon-cart" class="link-user">
+                <p class="btn-header">Minha Conta</p>
+            </a> -->
             
         </div>
+
     </header>
 
     <main>
@@ -164,8 +181,8 @@
             </div>
 
             <div class="btn-contatos">
-                <button type="submit">ENTRE EM CONTATO</button>
-                <button> FALE COM O NOSSO <br> CONSULTOR ONLINE</button>
+                <a href="#" class="a-btn"> <button>ENTRE EM CONTATO</button></a>
+                <a href="#" class="a-btn"> <button>FALE COM O NOSSO <br> CONSULTOR ONLINE</button></a>
             </div>
 
             <div class="patrocinadores">
