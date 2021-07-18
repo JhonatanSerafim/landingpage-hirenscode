@@ -17,11 +17,16 @@ a {
 
 * {
     box-sizing: border-box;
+    
 }
 
 body {
     max-width: 1920px;
     width: 100%;
+}
+
+input{
+    cursor: pointer;
 }
 
 /* RESET CSS*/
@@ -132,7 +137,13 @@ header .btn-header{
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.text-public{
+    display: flex;
+    flex-direction: column;
+   
 }
 
 .banner-title {
@@ -149,10 +160,11 @@ header .btn-header{
 .banner-title-sub {
     font-family: Nunito;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 50px;
+    line-height: 60px;
 
     color: #FFFFFF;
+    
 
 }
 
@@ -160,9 +172,8 @@ header .btn-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    margin-right: 30%;
-
+    margin-left: 100px;
+    
 }
 
 .imagem-banner {
@@ -305,6 +316,9 @@ section.news-letter h3 {
     line-height: 14px;
 }
 
+.news-form news-confirm {
+    cursor: pointer;
+}
 
 /* RODAPÉ DA PÁGINA*/
 
@@ -363,9 +377,11 @@ section.news-letter h3 {
 
 }
 
-.a-btn{
+.rodape button{
     cursor: pointer;
 }
+
+
 
 .rodape .patrocinadores {
     display: flex;
@@ -398,7 +414,7 @@ section.news-letter h3 {
 }
 
 
-@media (max-width:700px) {
+/* @media (max-width:700px) {
 
     footer{ 
     max-width: 100%;
@@ -411,4 +427,4 @@ section.news-letter h3 {
         justify-content: center;
         color: yellowgreen;
     }
-}
+} */

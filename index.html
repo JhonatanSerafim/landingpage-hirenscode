@@ -8,6 +8,10 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="./style.css">
 
+    <!-- ICONES -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
     <!-- FONTES-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,14 +39,16 @@
 
         <div class="btn-top">
 
-            <a href="#"><div class="btn-1">
-            <img src="./assets/user.png" alt="icon-user" class="link-user">
-                <input type="submit" value="Minha Conta" class="btn-header">
-            </div></a>
+            <a href="#">
+                <div class="btn-1">
+                    <img src="./assets/user.png" alt="icon-user" class="link-user">
+                    <input type="submit" value="Minha Conta" class="btn-header">
+                </div>
+            </a>
 
             <div class="btn-2">
-            <a href="#"><img src="./assets/shopping-cart.png" alt="icon-cart" class="link-user">
-                <input type="submit" value="carrinho" class="btn-header"></a>
+                <a href="#"><img src="./assets/shopping-cart.png" alt="icon-cart" class="link-user">
+                    <input type="submit" value="carrinho" class="btn-header"></a>
             </div>
 
             <!-- <a class="btn-1" href="#">
@@ -54,7 +60,7 @@
                 <img src="./assets/shopping-cart.png" alt="icon-cart" class="link-user">
                 <p class="btn-header">Minha Conta</p>
             </a> -->
-            
+
         </div>
 
     </header>
@@ -63,10 +69,10 @@
 
         <section id="banner-container">
             <div class="banner-1">
-                <h3 class="banner-title">Olá, o que você está buscando?</h3>
-                <h3 class="banner-title-sub">Criar ou migrar seu <br>
-                    e-commerce?</h3>
-
+                <div class="text-public">
+                    <p class="banner-title">Olá, o que você está buscando?</p>
+                    <h3 class="banner-title-sub">Criar ou migrar seu<br> e-commerce?</h3>
+                </div>
             </div>
             <div class="banner-2">
                 <img src="./assets/banner.png" alt="Banner" class="imagem-banner">
@@ -135,7 +141,7 @@
                     <img src="./assets/cinto.png" alt="Cinto">
                     <div class="descricao">
                         <p class="titulo-produto">
-                            SAPATO FLOATER PRETO
+                            CINTO SEMICROMO PRETO
                         </p>
                         <p class="valor">
                             por R$ 79,90
@@ -162,7 +168,8 @@
                         <input type="text" name="nome" placeholder="Digite seu nome" class="texto-cadastro">
                         <input type="text" name="email" placeholder="Digite seu email" class="texto-cadastro">
 
-                        <input type="submit" value="Eu quero!" class="btn-news-letter">
+                        <a href="#" class="news-confirm"> <input type="submit" value="Eu quero!"
+                                class="btn-news-letter"></a>
                     </form>
                 </div>
             </div>
@@ -181,8 +188,14 @@
             </div>
 
             <div class="btn-contatos">
-                <a href="#" class="a-btn"> <button>ENTRE EM CONTATO</button></a>
-                <a href="#" class="a-btn"> <button>FALE COM O NOSSO <br> CONSULTOR ONLINE</button></a>
+
+                <a href="#" class="a-btn">
+                    <button> <i class="fas fa-envelope"></i> ENTRE EM CONTATO</button>
+                </a>
+
+                <a href="#" class="a-btn">
+                    <button> <i class="fas fa-headset"></i> FALE COM O NOSSO <br> CONSULTOR ONLINE</button>
+                </a>
             </div>
 
             <div class="patrocinadores">
